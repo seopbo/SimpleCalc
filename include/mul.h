@@ -3,5 +3,7 @@
 
 class Mul : public IOperator {
     public:
-        virtual float op(float num1, float num2);
+        float op(float num1, float num2);
+    private:
+        float res;
 };
